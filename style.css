@@ -44,3 +44,30 @@ ul {
     display: flex;
     margin-right: 30px;
 }  
+
+.container {
+    background:cornflowerblue;
+    min-height: 120px;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#tarefa {
+    display: flex;
+    margin-bottom: 20px;
+    width: 97%;
+}
+
+input{
+   height: 48px;
+   width: 85%;
+   
+}
+
+button {
+    height: 48px;
+    width: 15%;
+
+}
