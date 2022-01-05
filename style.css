@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -74,7 +75,7 @@ ul {
 }
 
 .input::placeholder {
-    color:#adb5bd;
+    color: #adb5bd;
     font-size: 18px;
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
@@ -155,8 +156,10 @@ ul {
 }
 
 .afazer, .feito {
+    width: 100%;
     margin: 5px;
     padding: 20px;
+    margin-bottom: 40px;
 }
 
 .afazer h3 {
@@ -177,6 +180,7 @@ ul {
 
 li, ol {
     list-style: none;
+    
 }
 
 #checkbox {
@@ -184,6 +188,21 @@ li, ol {
     height: 20px;
 }
 
-.completed {
+#edit, #delete {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #edede9;
+    font-size: 18px;
+    margin: 5px;
+    color: #6c757d;
+}
+
+ol.feito li {
     text-decoration: line-through;
+}
+
+li button {
+    float: right;
+
 }
