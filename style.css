@@ -65,17 +65,17 @@ ul {
    width: 90%;
    border: none;
    color: #adb5bd;
-   font-size: 16px;
+   font-size: 18px;
    font-weight: 100;
    font-family: 'Open Sans', sans-serif;
    font-style: italic;
-   padding-left: 25px;
+   padding-left: 26px;
    outline: none;
 }
 
 .input::placeholder {
     color:#adb5bd;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
@@ -161,12 +161,29 @@ ul {
 
 .afazer h3 {
     margin-bottom: 20px;
+    color: rgb(71, 122, 124);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .feito h3 {
     margin-bottom: 20px;
+    color: rgb(71, 122, 124);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 li, ol {
     list-style: none;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
 }
