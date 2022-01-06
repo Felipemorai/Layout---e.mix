@@ -183,7 +183,7 @@ li, ol {
     
 }
 
-#checkbox {
+#checkbox, #checkbox-1 {
     width: 20px;
     height: 20px;
     margin-top: 10px;
@@ -195,20 +195,49 @@ li, ol {
     height: 30px;
     border: none;
     background: transparent;
-    font-size: 18.71px;
+    font-size: 19px;
     margin: 5px;
-    color: #6c757d;
+    color: #7d8597;
 } 
 
 ol.feito li {
     text-decoration: line-through;
 }
 
- li button {
+li button {
     float: right;
 } 
 
+label  {
+    
+    width: 300px;
+}
+
 .bloco {
     border-bottom: 1px solid #adb5bd;
-    padding: 2px;
+    padding: 3px;
+    
+}
+
+.bloco input {
+    display: none;
+}
+
+.bloco input + label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #edede9;
+    border: 3px solid #7d8597;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+
+.bloco input:checked + label:before {
+    background-color: #7d8597;
+    background-image: url('./image/check1.png;
+    background-size: 18px;
 }
