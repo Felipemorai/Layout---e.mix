@@ -3,13 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
     background: #edede9;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 nav {
@@ -75,7 +75,7 @@ ul {
 }
 
 .input::placeholder {
-    color: #adb5bd;
+    color:#adb5bd;
     font-size: 18px;
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
@@ -83,7 +83,7 @@ ul {
 }
 
 .input:hover {
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15)!important;
 }
 
 .button {
@@ -186,23 +186,29 @@ li, ol {
 #checkbox {
     width: 20px;
     height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 #edit, #delete {
     width: 30px;
     height: 30px;
     border: none;
-    background: #edede9;
-    font-size: 18px;
+    background: transparent;
+    font-size: 18.71px;
     margin: 5px;
     color: #6c757d;
-}
+} 
 
 ol.feito li {
     text-decoration: line-through;
 }
 
-li button {
+ li button {
     float: right;
+} 
 
+.bloco {
+    border-bottom: 1px solid #adb5bd;
+    padding: 2px;
 }
