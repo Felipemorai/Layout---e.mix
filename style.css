@@ -198,7 +198,12 @@ li, ol {
     font-size: 20px;
     margin: 5px;
     color: #7d8597;
+    cursor: pointer;
 } 
+
+#edit:hover, #delete:hover {
+    text-shadow: 1px 1px 8px #adb5bd;
+}
 
 li button {
     float: right;
@@ -231,7 +236,6 @@ li button {
     background-color: #7d8597;
     background-image: url('./image/check1.png');
     background-size: 18px;
-    text-decoration: line-through;
 }
 
 .feito input:checked + label {
