@@ -195,28 +195,19 @@ li, ol {
     height: 30px;
     border: none;
     background: transparent;
-    font-size: 19px;
+    font-size: 20px;
     margin: 5px;
     color: #7d8597;
 } 
-
-ol.feito li {
-    text-decoration: line-through;
-}
 
 li button {
     float: right;
 } 
 
-label  {
-    
-    width: 300px;
-}
-
 .bloco {
     border-bottom: 1px solid #adb5bd;
     padding: 3px;
-    
+    padding-bottom: 7px;
 }
 
 .bloco input {
@@ -238,6 +229,21 @@ label  {
 
 .bloco input:checked + label:before {
     background-color: #7d8597;
-    background-image: url('./image/check1.png;
+    background-image: url('./image/check1.png');
     background-size: 18px;
+    text-decoration: line-through;
+}
+
+.feito input:checked + label {
+    text-decoration: line-through;
+}
+
+.bloco button {
+    padding-bottom: 8px;
+}
+
+.bloco label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
 }
