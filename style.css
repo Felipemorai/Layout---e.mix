@@ -199,6 +199,7 @@ li, ol {
     margin: 5px;
     color: #7d8597;
     cursor: pointer;
+    padding-bottom: 13px;
 } 
 
 #edit:hover, #delete:hover {
