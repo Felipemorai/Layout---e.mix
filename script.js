@@ -9,6 +9,13 @@ $(document).ready(function() {
          $(".input").val(''); 
     })
     const Feito = document.querySelector(".feito");
+    const edit = document.querySelector("#edit");
+    const bloco  = document.querySelector(".bloco");
+    const input = document.querySelector(".input");
+
+    $(document).on('click', '.feito #delete, .afazer #delete' , function() {
+        $(this).parent().remove();
+    });
 
     $(document).on('change', 'input[type="checkbox"]' , function() {
         const parent = this.parentNode;
